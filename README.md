@@ -6,28 +6,28 @@ Customer churn is basically predicting if the customer will let go of the busine
 
 The library section:
 
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
-import keras
-from keras.layers import *
-from keras.models import Sequential
-from keras.layers import Dense
-from sklearn import svm
-from sklearn.metrics import precision_score, recall_score, confusion_matrix, classification_report, accuracy_score, f1_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import KFold, cross_val_score
-from sklearn.metrics import precision_recall_fscore_support as score
-from sklearn.tree import DecisionTreeClassifier
-import lightgbm as lgbm
-from sklearn.metrics import mean_squared_error
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.model_selection import GridSearchCV 
+* import numpy as np
+* import pandas as pd
+* from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+* from sklearn.preprocessing import MinMaxScaler
+* from sklearn.model_selection import train_test_split
+* import keras
+* from keras.layers import *
+* from keras.models import Sequential
+* from keras.layers import Dense
+* from sklearn import svm
+* from sklearn.metrics import precision_score, recall_score, confusion_matrix, classification_report, accuracy_score, f1_score
+* from sklearn.ensemble import RandomForestClassifier
+* from sklearn.model_selection import KFold, cross_val_score
+* from sklearn.metrics import precision_recall_fscore_support as score
+* from sklearn.tree import DecisionTreeClassifier
+* import lightgbm as lgbm
+* from sklearn.metrics import mean_squared_error
+* from sklearn.ensemble import AdaBoostClassifier
+* from sklearn.ensemble import GradientBoostingClassifier
+* from sklearn.model_selection import GridSearchCV 
 
-code was run on Python using anaconda navigator
+* code was run on Python using anaconda navigator
 
 
 ## Dataset
@@ -38,13 +38,13 @@ This file has 10,000 entries of customer information with credit score, geograph
 
 ### Models built
 
-•Model 1: Neural Network model 1
-•Model 2: Neural Network model 2
-•Model 3: Support Vector classifier
-•Model 4: Random Forest classifier
-•Model 5: Decision Tree classifier
-•Model 6: AdaBoost classifier
-•Model 7: Gradient Boosting classifier
+* Model 1: Neural Network model 1
+* Model 2: Neural Network model 2
+* Model 3: Support Vector classifier
+* Model 4: Random Forest classifier
+* Model 5: Decision Tree classifier
+* Model 6: AdaBoost classifier
+* Model 7: Gradient Boosting classifier
 
 
 ### Metrics used was accuracy, precision, and recall
