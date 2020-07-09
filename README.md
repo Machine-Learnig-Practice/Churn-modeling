@@ -1,4 +1,4 @@
-# Churn Modelling
+# Churn Modeling
 
 Customer churn is basically predicting if the customer will let go of the business with the company or stop being the customer due to certain reasons. Either due to high pricing or not good customer service etc. Churn modelling helps predict which customer will be leaving the company's services and would require some attention if the company wants to retain the customer.
 
